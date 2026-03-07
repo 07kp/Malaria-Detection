@@ -1,5 +1,5 @@
 
-🦠 Malaria Detection using Deep Learning
+🦠 **Malaria Detection using Deep Learning**
 
 📌 Overview
 
@@ -9,7 +9,7 @@ The model is trained using a CNN (Convolutional Neural Network) on microscopic b
 
 Users can upload an image through a Flask web application, and the model predicts whether the cell is infected with malaria or not.
 
-⚙️ Prerequisites
+⚙️ **Prerequisites**
 
 Before running the project, install the following tools:
 
@@ -25,7 +25,7 @@ Install required libraries:
 
 pip install -r requirements.txt
 
-Main libraries used:
+**Main libraries used**:
 
 TensorFlow / Keras
 
@@ -37,7 +37,7 @@ OpenCV
 
 Matplotlib
 
-🚀 Features
+🚀 **Features**
 
 Detect malaria from microscopic blood cell images
 
@@ -51,7 +51,7 @@ Model training script included
 
 Model bias testing
 
-🔄 Project Flow
+🔄 **Project Flow**
 
 Collect malaria cell image dataset.
 
@@ -67,26 +67,27 @@ Upload an image for prediction.
 
 Model predicts Parasitized or Uninfected.
 
-📂 Project Structure
+📂 **Project Structure**
+
 Malaria-Detection
 │
-├── Parasitized/             # Images of infected cells
-├── Unparasitized/           # Images of healthy cells
+├── Parasitized/             
+├── Unparasitized/           
 │
-├── templates/               # HTML files for Flask UI
+├── templates/               
 │
-├── app.py                   # Main Flask application
-├── train.py                 # Model training script
-├── malaria_cnn.h5           # Saved trained model
-├── test_model_bias.py       # Testing the trained model
+├── app.py                   
+├── train.py                 
+├── malaria_cnn.h5           
+├── test_model_bias.py       
 │
-├── requirements.txt         # Required Python libraries
-├── README.md                # Project documentation
+├── requirements.txt         
+├── README.md                
 └── .gitattributes
 
-📊 Data Collection :-
+📊 **Data Collection :-**
 
-📊 Activity :- Collect the Dataset or Create the Dataset
+📊 Activity :- **Collect the Dataset or Create the Dataset**
 
 The dataset contains two categories of blood cell images:
 
@@ -101,9 +102,9 @@ Unparasitized/
 
 These images are used to train the deep learning model.
 
-Data Pre-processing :-
+**Data Pre-processing :-**
 
-📚 Activity : Importing the Libraries
+📚 Activity : **Importing the Libraries**
 
 The following Python libraries are used:
 
@@ -117,7 +118,7 @@ Matplotlib → For visualization
 
 Flask → To create the web application
 
-📂 Activity :- Reading the Dataset
+📂 Activity :- **Reading the Dataset**
 
 The dataset images are loaded from the folders using Python.
 
@@ -133,7 +134,7 @@ Assign labels (0 for Uninfected, 1 for Parasitized).
 
 Split dataset into training and testing data.
 
-📊 Data Visualization
+📊 **Data Visualization**
 
 Data visualization helps us understand the dataset.
 
@@ -147,7 +148,7 @@ Training accuracy and loss graphs
 
 These graphs help us analyze the model performance during training.
 
-💾 Save the Model
+💾 **Save the Model**
 
 After training the CNN model, it is saved as:
 
@@ -155,13 +156,9 @@ malaria_cnn.h5
 
 Saving the model allows us to reuse it later without training again.
 
-Example:
+🚀 **Application  Building**
 
-model.save("malaria_cnn.h5")
-
-🚀 Application  Building
-
-🚀 Activity :- Main Python Script (app.py)
+🚀 Activity :- **Main Python Script (app.py)**
 
 app.py is the main Flask application.
 
@@ -177,7 +174,7 @@ Predict malaria infection
 
 Display the result on the webpage
 
-To run the application:
+**To run the application:**
 
 python app.py
 
@@ -187,7 +184,7 @@ http://127.0.0.1:5000
 
 Upload a blood cell image to see the prediction.
 
-📌 Future Improvements
+📌 **Future Improvements**
 
 Improve model accuracy using larger datasets
 
@@ -199,22 +196,14 @@ Improve user interface
 
 Mobile responsive web design
 
-✅ Conclusion
+✅ **Conclusion**
 
 This project demonstrates how Deep Learning and CNN models can be used to detect malaria from microscopic blood cell images.
 
 The system helps in:
 
-Faster malaria detection
+Faster malaria detection.
 
-Reducing manual effort
+Reducing manual effort.
 
-Supporting medical diagnosis
-
-In the future, this project can be improved by:
-
-Using larger datasets
-
-Training more advanced models
-
-Deploying the system online.
+Supporting medical diagnosis.
