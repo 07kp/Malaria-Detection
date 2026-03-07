@@ -1,7 +1,6 @@
+# 🦠 Malaria Detection using Deep Learning
 
-🦠 **Malaria Detection using Deep Learning**
-
-📌 Overview
+## 📌 Overview
 
 This project is a Deep Learning based Malaria Detection System that detects whether a blood cell image is Parasitized (infected) or Uninfected (healthy).
 
@@ -9,7 +8,7 @@ The model is trained using a CNN (Convolutional Neural Network) on microscopic b
 
 Users can upload an image through a Flask web application, and the model predicts whether the cell is infected with malaria or not.
 
-⚙️ **Prerequisites**
+## ⚙️ Prerequisites
 
 Before running the project, install the following tools:
 
@@ -25,7 +24,7 @@ Install required libraries:
 
 pip install -r requirements.txt
 
-**Main libraries used**:
+**Main libraries used:**
 
 TensorFlow / Keras
 
@@ -37,7 +36,7 @@ OpenCV
 
 Matplotlib
 
-🚀 **Features**
+## 🚀 Features
 
 Detect malaria from microscopic blood cell images
 
@@ -51,7 +50,7 @@ Model training script included
 
 Model bias testing
 
-🔄 **Project Flow**
+## 🔄 Project Flow
 
 Collect malaria cell image dataset.
 
@@ -67,7 +66,7 @@ Upload an image for prediction.
 
 Model predicts Parasitized or Uninfected.
 
-📂 **Project Structure**
+## 📂 Project Structure
 
 Malaria-Detection
 │
@@ -85,9 +84,9 @@ Malaria-Detection
 ├── README.md                
 └── .gitattributes
 
-📊 **Data Collection :-**
+## 📊 Data Collection 
 
-📊 Activity :- **Collect the Dataset or Create the Dataset**
+**Collect the Dataset or Create the Dataset:-**
 
 The dataset contains two categories of blood cell images:
 
@@ -102,9 +101,9 @@ Unparasitized/
 
 These images are used to train the deep learning model.
 
-**Data Pre-processing :-**
+## 📚 Data Pre-processing 
 
-📚 Activity : **Importing the Libraries**
+**Importing the Libraries:-**
 
 The following Python libraries are used:
 
@@ -118,7 +117,7 @@ Matplotlib → For visualization
 
 Flask → To create the web application
 
-📂 Activity :- **Reading the Dataset**
+**Reading the Dataset:-**
 
 The dataset images are loaded from the folders using Python.
 
@@ -134,7 +133,7 @@ Assign labels (0 for Uninfected, 1 for Parasitized).
 
 Split dataset into training and testing data.
 
-📊 **Data Visualization**
+## 📊 Data Visualization
 
 Data visualization helps us understand the dataset.
 
@@ -148,7 +147,7 @@ Training accuracy and loss graphs
 
 These graphs help us analyze the model performance during training.
 
-💾 **Save the Model**
+## 💾 Save the Model
 
 After training the CNN model, it is saved as:
 
@@ -156,9 +155,9 @@ malaria_cnn.h5
 
 Saving the model allows us to reuse it later without training again.
 
-🚀 **Application  Building**
+## 🚀 Application  Building
 
-🚀 Activity :- **Main Python Script (app.py)**
+**Main Python Script (app.py):-**
 
 app.py is the main Flask application.
 
@@ -184,7 +183,7 @@ http://127.0.0.1:5000
 
 Upload a blood cell image to see the prediction.
 
-📌 **Future Improvements**
+## 📌 Future Improvements
 
 Improve model accuracy using larger datasets
 
@@ -196,7 +195,7 @@ Improve user interface
 
 Mobile responsive web design
 
-✅ **Conclusion**
+## ✅ Conclusion
 
 This project demonstrates how Deep Learning and CNN models can be used to detect malaria from microscopic blood cell images.
 
