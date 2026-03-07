@@ -822,7 +822,7 @@
         const timeValue = document.getElementById('timeValue');
         const stampValue = document.getElementById('stampValue');
 
-        const isModelLoaded = {{ 'true' if model_loaded else 'false' }};
+        const isModelLoaded = JSON.parse('{{ model_loaded | tojson }}');
 
         // UI Interactions
         fileInput.addEventListener('change', (e) => handleFile(e.target.files[0]));
